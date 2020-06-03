@@ -15,6 +15,7 @@
 		2120D31124879D7800437F9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2120D30F24879D7800437F9F /* LaunchScreen.storyboard */; };
 		2120D31C24879D7900437F9F /* abgabeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2120D31B24879D7900437F9F /* abgabeTestTests.swift */; };
 		2120D32724879D7900437F9F /* abgabeTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2120D32624879D7900437F9F /* abgabeTestUITests.swift */; };
+		2120D33524879F1600437F9F /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 2120D33424879F1600437F9F /* .travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2120D32224879D7900437F9F /* abgabeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = abgabeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2120D32624879D7900437F9F /* abgabeTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = abgabeTestUITests.swift; sourceTree = "<group>"; };
 		2120D32824879D7900437F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2120D33424879F1600437F9F /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		2120D2F824879D7100437F9F = {
 			isa = PBXGroup;
 			children = (
+				2120D33424879F1600437F9F /* .travis.yml */,
 				2120D30324879D7100437F9F /* abgabeTest */,
 				2120D31A24879D7800437F9F /* abgabeTestTests */,
 				2120D32524879D7900437F9F /* abgabeTestUITests */,
@@ -242,6 +245,7 @@
 			files = (
 				2120D31124879D7800437F9F /* LaunchScreen.storyboard in Resources */,
 				2120D30E24879D7800437F9F /* Preview Assets.xcassets in Resources */,
+				2120D33524879F1600437F9F /* .travis.yml in Resources */,
 				2120D30B24879D7800437F9F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
